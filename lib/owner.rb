@@ -14,7 +14,6 @@ class Owner
   end 
   
   def buy_fish(name)
-    new_fish = 
     @pets[:fishes].push(Fish.new(name))
   end 
   
