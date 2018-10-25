@@ -45,6 +45,16 @@ class Owner
     end
   end 
   
+  def play_with_cats
+    @pets.collect do |specie, creation| 
+      if specie == :cats 
+        creation.each do |cat|
+          cat.mood = "happy"
+        end 
+      end
+    end
+  end
+  
   
   def self.all 
     @@all 
