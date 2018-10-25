@@ -66,11 +66,9 @@ class Owner
     
     
     def list_pets 
-      @pets.collect do |specie, creation| 
-        creation.each do |pet|
-          pet.mood = "nervous"
-        end
-      end
+      fish = @pets[:fishes].count 
+      cats = @pets[:cats].count 
+      dogs = @pets[:dogs].count 
     end 
   
   
