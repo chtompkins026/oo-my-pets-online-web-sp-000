@@ -27,7 +27,12 @@ class Owner
   
   def walk_dogs
     @species.select |specie, mood| 
-      if specie == :dog 
+      if specie == :dogs 
+        mood.each do |mood|
+          dog.mood = "happy"
+        end 
+      end 
+    end 
   end 
   
   
