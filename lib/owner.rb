@@ -18,7 +18,7 @@ class Owner
   end 
   
   def buy_cat(name)
-    @pets[:cat].push(Cat.new(name))
+    @pets[:cats].push(Cat.new(name))
   end 
   
   
