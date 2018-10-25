@@ -25,7 +25,7 @@ class Owner
     @pets[:dogs].push(Dog.new(name))
   end 
   
-  def 
+  def walk_dogs
   
   
   def self.all 
