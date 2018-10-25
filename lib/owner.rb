@@ -48,8 +48,8 @@ class Owner
   def feed_fish
     @pets.collect do |specie, creation| 
       if specie == :cats 
-        creation.each do |cat|
-          cat.mood = "happy"
+        creation.each do |fish|
+          fish.mood = "happy"
         end 
       end
     end
