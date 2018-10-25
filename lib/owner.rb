@@ -21,6 +21,10 @@ class Owner
     @pets[:cats].push(Cat.new(name))
   end 
   
+   def buy_cat(name)
+    @pets[:cats].push(Cat.new(name))
+  end 
+  
   
   def self.all 
     @@all 
