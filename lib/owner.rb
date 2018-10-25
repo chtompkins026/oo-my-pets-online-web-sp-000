@@ -57,7 +57,6 @@ class Owner
   
    def sell_oets
     @pets.collect do |specie, creation| 
-      if specie == :fishes
         creation.each do |fish|
           fish.mood = "happy"
         end 
