@@ -45,7 +45,7 @@ class Owner
     end
   end 
   
-  def play_with_cats
+  def feed_fish
     @pets.collect do |specie, creation| 
       if specie == :cats 
         creation.each do |cat|
