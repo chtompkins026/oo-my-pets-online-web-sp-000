@@ -63,6 +63,15 @@ class Owner
       end
       @pets.clear
     end
+    
+    
+    def list_pets 
+      @pets.collect do |specie, creation| 
+        creation.each do |pet|
+          pet.mood = "nervous"
+        end
+      end
+    end 
   
   
   def self.all 
