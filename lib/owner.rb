@@ -26,7 +26,8 @@ class Owner
   end 
   
   def walk_dogs
-    
+    @species.select |specie, mood| 
+      if specie == :dog 
   end 
   
   
