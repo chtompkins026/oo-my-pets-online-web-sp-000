@@ -60,8 +60,8 @@ class Owner
         creation.each do |pet|
           pet.mood = "nervous"
         end
+      end
     end
-  end
   
   
   def self.all 
